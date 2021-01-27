@@ -6,10 +6,8 @@ export class UserForm extends Component {
       step: 1,
       firtsName: '',
       lastName: '',
-      email: '',
-      occupation: '',
-      bio: '',
-      city: ''
+      productid: '',
+      viewerid: '',
    }
 
    //Proceed to next Step
@@ -39,10 +37,8 @@ export class UserForm extends Component {
 
    render() {
       const { step } = this.state;
-      const { firstName, lastName, email, occupation,bio,
-      city } = this.state;
-      const values = { firstName, lastName, email, occupation, bio,
-      city }
+      const { firstName, lastName, email, productid,viewerid } = this.state;
+      const values = { firstName, lastName, email, productid, viewerid }
 
       switch(step) {
          case 1:
