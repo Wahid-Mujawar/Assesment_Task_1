@@ -4,7 +4,6 @@ import FormUserDetails from './FormUserDetails';
 export class UserForm extends Component {
    state = {
       step: 1,
-      firtsName: '',
       lastName: '',
       email: '',
       occupation: '',
