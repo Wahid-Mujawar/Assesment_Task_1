@@ -49,15 +49,14 @@ export class UserForm extends Component {
                handleChange={this.handleChange}
                values={values}/>
             )
-            case 2: 
-         return (
-            <ProductDetails
-            nextStep={this.nextStep}
-            previousStep={this.previousStep}
-            handleChange={this.handleChange}
-            values={values}/>
-
-         
+        case 2: 
+            return (
+                <ProductDetails
+                nextStep={this.nextStep}
+                previousStep={this.previousStep}
+                handleChange={this.handleChange}
+                values={values}/>
+            )
       }
    }
 }
