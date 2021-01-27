@@ -32,18 +32,11 @@ export class ProductDetails extends Component {
 
             <TextField
             hintText="Select Viewer Id"
-            floatingLabelText="City"
-            onChange={handleChange('city')}
-            defaultValue={values.city}
+            floatingLabelText="viewer"
+            onChange={handleChange('viewer')}
+            defaultValue={values.viewer}
             />
             <br/>
-
-            <TextField
-            hintText="Enter Your Bio"
-            floatingLabelText="Bio"
-            onChange={handleChange('bio')}
-            defaultValue={values.bio}
-            />
             <br/>
 
             <RaisedButton
