@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FormUserDetails from './FormUserDetails';
+import ProductDetails from './ProductDetails';
 
 export class UserForm extends Component {
    state = {
@@ -48,6 +49,13 @@ export class UserForm extends Component {
                handleChange={this.handleChange}
                values={values}/>
             )
+            case 2: 
+         return (
+            <ProductDetails
+            nextStep={this.nextStep}
+            previousStep={this.previousStep}
+            handleChange={this.handleChange}
+            values={values}/>
 
          
       }
