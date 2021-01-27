@@ -21,17 +21,17 @@ export class ProductDetails extends Component {
       return (
        <MuiThemeProvider>
           <React.Fragment>
-            <AppBar title="Enter The Personal Details"/>
+            <AppBar title="Enter The Product Details"/>
             <TextField
             hintText="Select Product Id"
-            floatingLabelText="Occupation"
-            onChange={handleChange('occupation')}
-            defaultValue={values.occupation}
+            floatingLabelText="product"
+            onChange={handleChange('product')}
+            defaultValue={values.product}
             />
             <br/>
 
             <TextField
-            hintText="Enter Your City"
+            hintText="Select Viewer Id"
             floatingLabelText="City"
             onChange={handleChange('city')}
             defaultValue={values.city}
